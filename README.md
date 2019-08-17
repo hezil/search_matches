@@ -1,7 +1,7 @@
 $ grep_click
 
   grep_click is a simple python application that
-  simply do what grep funcation does in Linux
+  search and display pattern matches in file/s or stdout
 
 Usage:
 
