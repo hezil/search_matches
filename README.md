@@ -9,15 +9,15 @@ Usage:
   
   $ examples:
   
-    grep_click --regex file.txt --color green --underline stdin 'ls -a'
+    search_matches --regex file.txt --color green --underline stdin 'ls -a'
     
-    grep_click -r abc -c blue -u cat file.txt
+    search_matches -r abc -c blue -u cat file.txt
     
-    grep_click -r 'hello my friend' cat file1.txt file2.txt file3.txt
+    search_matches -r 'hello my friend' cat file1.txt file2.txt file3.txt
     
    $ regex example:
    
-     grep_click -r [0-9]{1} -c cyan -u cat file.txt
+     search_matches -r [0-9]{1} -c cyan -u cat file.txt
     
     
   
