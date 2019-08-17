@@ -1,7 +1,7 @@
-$ grep_click
+$ search_matches
 
-  grep_click is a simple python application that
-  search and display pattern matches in file/s or stdout
+  search_matches is a python application that search
+  and display pattern matches in file/s or stdout
 
 Usage:
 
