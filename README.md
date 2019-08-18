@@ -17,7 +17,9 @@ Usage:
     
    $ regex example:
    
-     search_matches -r [0-9]{1} -c cyan -u cat file.txt
+     search_matches -r r'[0-9]{1}' -c cyan -u cat file.txt
+     
+     search_matches -r r'+[a-zA-Z]{5,}' -c cyan -u cat file.txt
     
     
   
