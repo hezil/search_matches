@@ -25,6 +25,7 @@ Usage:
    
     for stout:
      line:start_positon:matched_text
+     
     for file:
      format:file_name:line:start_positon:matched_text
   
