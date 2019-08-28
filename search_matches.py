@@ -100,7 +100,7 @@ def print_match_lines(input, output, regex, color, underline):
             num_of_matches += 1
             print_convention(input, line_num, i, regex, color, underline)
     if num_of_matches == 0:
-        print('No matches found')
+        click.echo('No matches found')
 
 def mark_matches(word, find, color, underline):
     return re.sub(find, text_style(find, color, underline), word)
