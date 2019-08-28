@@ -21,7 +21,12 @@ Usage:
      
      search_matches -r r'+[a-zA-Z]{5,}' -c green -u cat file.txt
     
-    
+   $ print convention
+   
+    for stout:
+     line:start_positon:matched_text
+    for file:
+     format:file_name:line:start_positon:matched_text
   
 Referances to Click Python package:
 
