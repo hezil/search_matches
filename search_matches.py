@@ -121,9 +121,9 @@ def mark_multi_matches(word, find, color, underline): # handle regex pattern
 
 def print_convention(input, line_num, word, find, color, underline):
     if input is None:
-        print(f'line:{line_num} start_positon:{start_pos(word, find)} '
+        click.echo(f'line:{line_num} start_positon:{start_pos(word, find)} '
               f'matched_text:{mark_multi_matches(word, find, color, underline)}') # stdin convention
     else:
         filename, file_extension = os.path.splitext(input.name)
-        print(f'format:{file_extension} file_name:{filename} line:{line_num} start_positon:{start_pos(word, find)} '
+        click.echo(f'format:{file_extension} file_name:{filename} line:{line_num} start_positon:{start_pos(word, find)} '
               f'matched_text:{mark_multi_matches(word, find, color, underline)}') # file convention
